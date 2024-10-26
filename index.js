@@ -4,8 +4,6 @@ const c = canvas.getContext("2d");
 canvas.width = 64 * 16;
 canvas.height = 64 * 9;
 
-
-
 const player = new Player();
 
 const animate = () => {
